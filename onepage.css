@@ -5,6 +5,13 @@ body {
   background: #f7f7f7;
   color: #333;
 }
+body{                                           /*fundo*/
+background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/imagemproj4.webp');
+background-size: 100% auto; /*cobrir toda a tela de fundo*/
+background-position: center;
+background-repeat: no-repeat;
+background-attachment:fixed; /*fazer a imagem ficar fixada, quando usar scroll*/
+} 
 
 header {
   background: #2d89ef;
@@ -27,6 +34,15 @@ section {
 
 h2 {
   color: #2d89ef;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+p{
+  font-weight: 600;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 4px black;
 }
 
 form input,
@@ -57,11 +73,50 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #25d366;
+  background: #2d89ef;
   color: white;
   font-size: 24px;
   padding: 15px;
   border-radius: 50%;
   text-decoration: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/*colocando dentro de caixas*/
+
+.caixaDeBoasVindas{
+   background: white;
+  color: #2d89ef;
+  padding: 20px;
+  text-align: center;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px rgb(0,0, 0.2);
+  text-decoration-color: #2d89ef;
+  text-shadow: none;
+
+}
+
+
+
+.caixaDeBoasVindas h2{
+  text-shadow: none;
+  color: #2d89ef;
+}
+
+.caixaDeBoasVindas p{
+  text-shadow: none;
+  color: #2d89ef;
+}
+
+
+.servicosOferecidos li{
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  
+}
+
+.direitos p{
+  text-shadow: none;
+  color: #2d89ef;
 }
